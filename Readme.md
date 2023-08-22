@@ -1,4 +1,4 @@
-<h1>Go: A linguagem do google</h1> 
+<h1>Go: A linguagem do google V0.2</h1> 
 
 <p align="center">
   
@@ -12,13 +12,14 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-<!-- :small_blue_diamond: [Funcionalidades](#funcionalidades) -->
+:small_blue_diamond: [Ultimas atualizações](#ultimas-atualizações)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades) 
 
 :small_blue_diamond: [Pré Requisitos](#pré-requisitos)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
-:small_blue_diamond: [Ultimas atualizações](#ultimas-atualizações)
 
 ... 
 
@@ -30,39 +31,13 @@
 
 ## Ultimas atualizações :new:
 <p align="justify">
-  O projeto encontra-se na versão 0.1 e atualmente apenas aceita a escolha de uma opção em menu, porém não executa nada além disso.
+  O projeto encontra-se na versão 0.2 e atualmente verifica o site da <a href="http://www.alura.com.br"> alura </a> apenas, o mesmo retorna se o site está ativo ou não. No quesito de código agora a estrutura está modularizada com cada função devidamente separada e um laço de looping que não permita o fim da execução do código - salvo a exceção de que o usuário deseja encerrar a aplicação.
 </p>
 
-<!-- ## Funcionalidades -->
-<!-- 
-:heavy_check_mark: Alunos
-- Criar
-- Editar
-- Listar
-- Excluir  
+## Funcionalidades
 
-:heavy_check_mark: Professores
-- Criar
-- Editar
-- Listar
-- Excluir 
-
-:heavy_check_mark: Turmas
-- Criar
-- Editar
-- Listar
-- Excluir 
-
-:heavy_check_mark: Disciplinas
-- Criar
-- Editar
-- Listar
-- Excluir 
-
-:heavy_check_mark: Matriculas
-- Criar
-- Listar
-- Excluir  -->
+:heavy_check_mark: Monitoramento de status
+- [Alura](http://www.alura.com.br) 
 
 ## Pré-requisitos
 
@@ -85,6 +60,9 @@ abra o terminal dentro da pasta e digite:
 go run main.go
 ```
 
+para alterar o site de monitoramento basta abrir o arquivo main.go no seu visual studio code e alterar a variável webSite dentro da função monitoramento()
+
+>Sugestão de site para testes - https://httpstat.us/[statuscode desejado]
 
 
 Copyright :copyright: 2023 - Go-a-linguagem-do-Google
