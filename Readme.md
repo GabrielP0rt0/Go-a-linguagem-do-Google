@@ -18,12 +18,19 @@
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
+:small_blue_diamond: [Ultimas atualizações](#ultimas-atualizações)
+
 ... 
 
 ## Descrição do projeto 
 
 <p align="justify">
   O Projeto foi criado como projeto do curso de mesmo nome oferecido pela <a href="https://cursos.alura.com.br/course/golang" > alura </a>. Este projeto tem como finalidade o monitoramento de sites
+</p>
+
+## Ultimas atualizações :new:
+<p align="justify">
+  O projeto encontra-se na versão 0.1 e atualmente apenas aceita a escolha de uma opção em menu, porém não executa nada além disso.
 </p>
 
 <!-- ## Funcionalidades -->
