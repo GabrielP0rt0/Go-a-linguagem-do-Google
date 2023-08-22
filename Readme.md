@@ -62,7 +62,7 @@ go run main.go
 
 para alterar o site de monitoramento basta abrir o arquivo main.go no seu visual studio code e alterar a variável webSite dentro da função monitoramento()
 
->Sugestão de site para testes - https://httpstat.us/[statuscode desejado]
+>Sugestão de site para testes - https://httpstat.us/[statuscode_desejado]
 
 
 Copyright :copyright: 2023 - Go-a-linguagem-do-Google
