@@ -1,4 +1,4 @@
-<h1>Go: A linguagem do google V0.2</h1> 
+<h1>Go: A linguagem do google V1.0</h1> 
 
 <p align="center">
   
@@ -6,7 +6,7 @@
        
 </p>
 
-> Status do Projeto: :warning: em desenvolvimento
+> Status do Projeto: :heavy_check_mark: concluído
 
 ### Tópicos 
 
@@ -31,13 +31,16 @@
 
 ## Ultimas atualizações :new:
 <p align="justify">
-  O projeto encontra-se na versão 0.2 e atualmente verifica o site da <a href="http://www.alura.com.br"> alura </a> apenas, o mesmo retorna se o site está ativo ou não. No quesito de código agora a estrutura está modularizada com cada função devidamente separada e um laço de looping que não permita o fim da execução do código - salvo a exceção de que o usuário deseja encerrar a aplicação.
+  O projeto encontra-se na versão 1.0 e atualmente verifica o site da <a href="http://www.alura.com.br"> alura </a>, e outros 4 endereços, sendo 3 com status fixos e um ultimo com status variavel. A aplicação retorna se o site está ativo ou não. O código está modularizado e executa comandos de leitura, manipulação e criação de arquivos txt
 </p>
 
 ## Funcionalidades
 
 :heavy_check_mark: Monitoramento de status
-- [Alura](http://www.alura.com.br) 
+- Leitura de arquivo texto com sites os quais devem ser monitorados
+
+:heavy_check_mark: Log de status
+- Criação e manipulação de arquivo texto com log de status
 
 ## Pré-requisitos
 
@@ -60,9 +63,8 @@ abra o terminal dentro da pasta e digite:
 go run main.go
 ```
 
-para alterar o site de monitoramento basta abrir o arquivo main.go no seu visual studio code e alterar a variável webSite dentro da função monitoramento()
+para alterar os sites de monitoramento basta abrir o arquivo sites.txt e alterar os webSites dentro do arquivo de texto
 
->Sugestão de site para testes - https://httpstat.us/[statuscode desejado]
-
+>Sugestão de site para testes - https://httpstat.us/[statuscode-desejado]
 
 Copyright :copyright: 2023 - Go-a-linguagem-do-Google
