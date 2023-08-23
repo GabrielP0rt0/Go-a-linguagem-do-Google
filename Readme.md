@@ -1,4 +1,4 @@
-<h1>Go: A linguagem do google V1.0</h1> 
+<h1>Go: a linguagem do google V1.0</h1> 
 
 <p align="center">
   
