@@ -65,6 +65,7 @@ go run main.go
 
 para alterar os sites de monitoramento basta abrir o arquivo sites.txt e alterar os webSites dentro do arquivo de texto
 
->Sugestão de site para testes - https://httpstat.us/[statuscode-desejado]
+>Sugestão de site para testes - [HttpStatus](https://httpstat.us/)
+
 
 Copyright :copyright: 2023 - Go-a-linguagem-do-Google
